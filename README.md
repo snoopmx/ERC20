@@ -3,14 +3,18 @@ Token ERC20
 
 
 En la linea
+
 uint public totalSupply = 10000 * 10 ** 18;
+
 Decidir cuantas unidades totales del token existirán, en esta ocasión vamos a dejarlo por default (si quieres agregar más no uses puntos ni comas, solo agrega o quita ceros)
 
 Agregar el nombre de tu token entre las comillas en
+
 string public name = "Nombre de token";
 Ejemplo: string public name = "QABlockchain";
 
 Agregar símbolo del token en mayúscula en
+
 string public symbol = "SIMBOLO";
 Ejemplo:
 string public symbol = "QAB";
